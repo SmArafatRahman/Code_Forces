@@ -10,5 +10,5 @@ int main(){
             return 0;
         }
     }
-    cout<<"EASY"<<endl;
+    cout<<"EASY"<<endl; //
 }
