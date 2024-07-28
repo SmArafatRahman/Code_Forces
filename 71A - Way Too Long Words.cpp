@@ -1,18 +1,16 @@
 #include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 int main(){
-    int n,s;
+    int t; cin>>t;
     string word;
-    cin>>n;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<t;i++){
         cin>> word;
-        s=word.length();
-        if(s>=12){
-            s= s-2;
-                cout<<word[0]<<s<<word[word.length()-1]<<endl;
+        if(word.length() > 10){
+            cout<< word[0]<< word.length()-2 << word[word.length()-1]<< endl;
         }
         else{
-            cout<<word<<endl;
+            cout<< word <<endl;
         }
     }
 }
