@@ -14,3 +14,4 @@ int main(){
     output=i*j;
     cout<<output<<endl;
 }
+*/end*/
